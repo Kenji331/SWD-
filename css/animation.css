@@ -1,0 +1,38 @@
+/* @keyframes h1Ani {
+    from {
+        color: red;
+    }
+    to {
+        transform: translate(50px, 50px) rotate(-50deg);
+        color: yellow;
+        font-size: 4em;
+    }
+} */
+
+@keyframes h1Ani {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(300px, 0);
+        color: red;
+    }
+
+    50% {
+
+    }
+
+    75% {
+        transform: translate(0, 300px);
+    }
+
+    100% {
+
+    }
+}
+
+h1 {
+    animation-name: h1Ani;
+    animation-duration: 5s;
+}
